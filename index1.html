@@ -1,0 +1,119 @@
+<html> <h1>Hypertext Markup Language (HTML)</h1>
+</html>
+<!--
+   Hypertext Markup Language
+   HT = Hypertext: hiper texto
+   M = Markup : marcação
+   L = Linguagem
+-->
+<!--
+    Anatomia das tags 
+    - Abertura de tag
+    - fechamento de tag
+    - conteúdo
+    - elementos
+    - Atributos
+-->
+<h1>
+    O titulo da abertura e fechamento de tags
+    <!--O titulo é o conteudo essa é a ideia mark up
+     a abertura e o fechamento das tags é onde constitue o elemento-->
+</h1>
+<!--Elementos vazios-->
+<img src="" alt="">
+<input type="text"> 
+<!--esses são ex de elementos vazios
+IMG E INPUT
+        - o restante é atributos
+        - os atributos não são fechados da mesma maneira como  no exemplo  -->
+        --------------------//--------------------
+        <!--
+            Atributos HTML
+            - informações extras
+            - configurações
+        -->
+        <img src="conteudo" alt="texto">
+     
+        <!-- 
+                    Atributos Booleanos
+                    - não precisam de conteúdo
+        -->
+        <input type="text" disabled>
+        <!--
+            - disabled por ex ele é um atributo booleano
+            - significa que algum valor é verdadeiro ou falso  só tendo esses dois valores e não se converssa mais.
+        -->
+
+
+
+        <!--
+        Aspas
+                - omissao
+                - simples
+                - duplas (usar sempre aspas duplas de pref)
+        -->
+       <a href="titulo"></a> 
+
+       <!--
+           Atributos Globais são aplicados para todas as tags
+           - class
+           - contenteditable
+           - data-*
+           - hidden
+           - id
+           - style
+           - tabindex
+           - title
+       -->
+<div class="carrinho" contenteditable="true">
+
+     conteudo 
+     <!--elementos aqui dentro-->
+
+</div>
+
+       <div class="carrinho" data-qualquer-nome-aqui="">
+       conteudo
+     <!--elementos aqui dentro-->
+     <!--a separação sempre por trassinhos ou tudo junto-->
+       </div>
+
+<div class="carrinho" data-id="" id="carrinho 2" style="color:aqua">
+    conteudo
+     <!--nao usar "id" usar o "class" pois o "id" ele nao pode ser repetido depois no css js -->
+</div>
+        <div class="carrinho" hidden>
+                    conteudo
+              <!--elementos aqui dentro-->
+        </div>
+<div tabindex="1">
+
+ tabindex 1
+
+</div>
+
+            <div tabindex="2"> 
+          
+                tabindex 2
+                
+            </div>
+
+<div tabindex="3">
+    
+    tabindex3
+
+</div>      
+            <!--
+                Aninhamento de tags (é colocar uma tag dentro da outra)
+                -fluxo
+                -hierarquia
+                -posicionamento dos elementos
+            -->
+            <p>
+              Vou <em>escrever</em> um paragrafo
+            </p>
+<!--Fluxo-->
+    <p>
+        esse é um novo paragrafo<br/>
+        br para quebrar linha
+    </p>
